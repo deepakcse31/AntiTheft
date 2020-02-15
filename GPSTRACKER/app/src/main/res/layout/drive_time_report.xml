@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:background="#080808"
+        android:text="Drive Time Report"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <EditText
+        android:layout_width="200dp"
+        android:hint="From Date"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:inputType="none"
+        android:id="@+id/fromdate1" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:inputType="none"
+            android:hint="To_date"
+            android:id="@+id/todate" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="200dp"
+            android:hint="From Time"
+            android:layout_height="wrap_content"
+            android:id="@+id/fromtime" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="To Time"
+            android:id="@+id/totime" />
+    </LinearLayout>
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:layout_marginLeft="300dp"
+        android:textColor="#ffffff"
+        android:background="#ff0006"
+        android:textAlignment="center"/>
+</LinearLayout>

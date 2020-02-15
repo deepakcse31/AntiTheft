@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:background="#080808"
+        android:text="Lock Vehicle"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:hint="Register Mobile No"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="250dp"
+        android:hint="password"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="195dp"
+        android:text="ok"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:background="#ff0006"/>
+    <EditText
+        android:layout_width="250dp"
+        android:hint="OTP"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="195dp"
+            android:text="OTP"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:background="#00d2ff"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:background="#ff0006"
+            android:text="ok"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+</LinearLayout>

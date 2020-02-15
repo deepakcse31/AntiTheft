@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "243751436969",
+    "firebase_url": "https://loginassignment-de8a8.firebaseio.com",
+    "project_id": "loginassignment-de8a8",
+    "storage_bucket": "loginassignment-de8a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243751436969:android:0bbbd28892e960503d1fb8",
+        "android_client_info": {
+          "package_name": "com.example.loginassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243751436969-r1qlo7htib7rj67949s4db8sjdjd6auj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginassignment",
+            "certificate_hash": "6297891b6fafff00e51499f4b99182f6851ada82"
+          }
+        },
+        {
+          "client_id": "243751436969-kqebbpupjsrhhalubs72umqmbt9kalla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-pw9ayjTDW9wvVf6pj-JVjIBfRFCvjo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243751436969-kqebbpupjsrhhalubs72umqmbt9kalla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
